@@ -1,0 +1,258 @@
+{
+ "missions": [
+  {
+   "schema_version": "nm-debrief-v1",
+   "created_by": "DEBRIEF/tools/new_mission.py",
+   "created_at": "2026-11-14T20:49:24Z",
+   "mission_id": "erdos856-2026-11",
+   "pod": "DEBRIEF-math-erdos856",
+   "provenance": {
+    "source": "public record to 2026-11-14: the problem page, its proof-claims thread and the claimants' public artifacts, pinned in claim.yaml"
+   },
+   "audience": "briefing",
+   "title": "The claimed solution of Erdős Problem #856 (sets with no k elements sharing a pairwise least common multiple)",
+   "kind": "audit",
+   "protocol_version": "0.1.0",
+   "claim_rule_met": false,
+   "label": "Erdős #856",
+   "area": "Number theory: extremal problems",
+   "rests_on": "an Overleaf read-only document; no fixed file and no formal deduction",
+   "pods": [
+    "DEBRIEF-math-erdos856"
+   ],
+   "began": "2026-11-14",
+   "status": "active",
+   "record_quality": "full_ledger",
+   "record_note": "Opened at tier zero: the claim and its artifacts are pinned, the gaps are drawn, nothing has been run or read by Nervous Machine.",
+   "record_limits": [
+    "Nothing in this record has been checked by Nervous Machine or by anyone independent of the claimants; every item is an open gap."
+   ],
+   "scope_limits": [
+    "Nervous Machine keeps score of the checks; it does not check the mathematics line by line.",
+    "Public record through 2026-11-14."
+   ],
+   "opening": {
+    "spoken": "This record covers the claimed solution of Erdős problem #856: what has been claimed, what it rests on, and what would have to be checked by whom."
+   },
+   "short_version": {
+    "spoken": "Erdős asked how large the sum of reciprocals of a subset of the first N integers can be if no k of its elements share the same pairwise least common multiple. In July 2026 RayYoung, Keheng Zhu and Yanping Luo listed a claimed solution giving the exponent of log N exactly, as a finite extremal formula, in an Overleaf document. The authors say they checked the argument themselves and did not formalise it. There is no fixed file to pin and no Lean development. Everything here is open."
+   },
+   "what_happened": {
+    "spoken": "The claim was pinned from the public record: the problem page, the proof-claims thread, and every artifact the claimants made public, by commit or hash. Nothing was run. The gaps that follow are the checks still owed."
+   },
+   "implications": {
+    "rely_on": [],
+    "do_not_rely_on": [
+     {
+      "spoken": "the claimed solution as settled; nothing in it has standing yet",
+      "finding_ids": []
+     }
+    ],
+    "stop": [],
+    "new": []
+   },
+   "certainty_statement": {
+    "spoken": "Nothing is certified or accepted. Every item is open."
+   },
+   "sources": [
+    {
+     "kind": "problem",
+     "ref": "https://www.erdosproblems.com/856"
+    },
+    {
+     "kind": "overleaf",
+     "ref": "https://www.overleaf.com/read/smhxdxnrmkbs#0eb184"
+    },
+    {
+     "kind": "formal statement (third party)",
+     "ref": "github.com/google-deepmind/formal-conjectures FormalConjectures/ErdosProblems/856.lean at e028240a61822d970c933f4656f51da025cf200b"
+    }
+   ]
+  }
+ ],
+ "cycles": [
+  {
+   "schema_version": "nm-debrief-v1",
+   "created_by": "DEBRIEF/tools/new_mission.py",
+   "created_at": "2026-11-14T20:49:24Z",
+   "mission_id": "erdos856-2026-11",
+   "pod": "DEBRIEF-math-erdos856",
+   "provenance": {
+    "source": "public record to 2026-11-14: the problem page, its proof-claims thread and the claimants' public artifacts, pinned in claim.yaml"
+   },
+   "audience": "briefing",
+   "cycle": 0,
+   "dated": "2026-04-15 to 2026-11-14",
+   "kind": "replay",
+   "preregistered": {
+    "question": "What is on the public record about this claim?",
+    "rule": "no look-ahead; each event dated by its first public posting; artifacts pinned by commit or hash",
+    "predictions": [],
+    "commit": null,
+    "before_data": false
+   },
+   "outcome": {
+    "verdict": "admitted",
+    "numbers": {
+     "claims": 1,
+     "artifacts": 1
+    }
+   },
+   "spoken": "Terence Tao's Erdős-problems AI wiki listed a candidate full solution by Przemek Chojecki with GPT-5.4 Pro, marked unverified; no proof claim from that work appears on the problem page as of November 2026. RayYoung, Keheng Zhu and Yanping Luo listed the proof claim on the problem page with a link to an Overleaf document. The problem page lists one proof claim, not marked accepted by the site. A third-party formalisation of the problem statement exists.",
+   "finding_ids": [],
+   "gap_ids": [
+    "EG1",
+    "EG2",
+    "EG3"
+   ]
+  }
+ ],
+ "findings": [],
+ "gaps": [
+  {
+   "schema_version": "nm-debrief-v1",
+   "created_by": "DEBRIEF/tools/new_mission.py",
+   "created_at": "2026-11-14T20:49:24Z",
+   "mission_id": "erdos856-2026-11",
+   "pod": "DEBRIEF-math-erdos856",
+   "provenance": {
+    "source": "public record to 2026-11-14: the problem page, its proof-claims thread and the claimants' public artifacts, pinned in claim.yaml"
+   },
+   "audience": "briefing",
+   "gap_id": "EG1",
+   "title": "No formal deduction exists for the claimed proof",
+   "status": "proposed",
+   "opened_cycle": 0,
+   "priority": 1,
+   "history": [],
+   "closes_with": [
+    {
+     "what": "a Lean formalization of the main theorem, by the claimant or anyone else, with the statement written by a third party",
+     "kind": "claim",
+     "external": true,
+     "who_could_act": "the claimant, or anyone who formalizes it"
+    }
+   ],
+   "spoken": "The proof exists as a written argument only. There is no machine-checkable form of it, so nothing here can be settled by a rerun yet.",
+   "ask": {
+    "spoken": "A formalization of the main theorem, with the statement written by someone other than the prover."
+   },
+   "expected_signal": "a claim cycle pinning a Lean development, which opens the rerun and semantic gaps",
+   "resolution_by": "none registered"
+  },
+  {
+   "schema_version": "nm-debrief-v1",
+   "created_by": "DEBRIEF/tools/new_mission.py",
+   "created_at": "2026-11-14T20:49:24Z",
+   "mission_id": "erdos856-2026-11",
+   "pod": "DEBRIEF-math-erdos856",
+   "provenance": {
+    "source": "public record to 2026-11-14: the problem page, its proof-claims thread and the claimants' public artifacts, pinned in claim.yaml"
+   },
+   "audience": "briefing",
+   "gap_id": "EG2",
+   "title": "No independent mathematician has reported reading the proof, and there is no referee report",
+   "status": "proposed",
+   "opened_cycle": 0,
+   "priority": 2,
+   "history": [],
+   "closes_with": [
+    {
+     "what": "a read cycle by a mathematician in the area who is not an author, signing or refusing each main step",
+     "kind": "read",
+     "external": true,
+     "who_could_act": "a mathematician in the problem's area"
+    },
+    {
+     "what": "a referee report or journal acceptance, recorded by date",
+     "kind": "measurement",
+     "external": true,
+     "who_could_act": "a journal; the record notes the date when it happens"
+    }
+   ],
+   "spoken": "The claim is listed on the problem's page, which states that appearing there is no guarantee of correctness and that nobody associated with the site has examined it. No independent reading is on the public record.",
+   "ask": {
+    "spoken": "Someone in the field reads it and says, under their name, what holds and what does not."
+   },
+   "expected_signal": "a signed or refused read cycle; a dated referee report",
+   "resolution_by": "none registered"
+  },
+  {
+   "schema_version": "nm-debrief-v1",
+   "created_by": "DEBRIEF/tools/new_mission.py",
+   "created_at": "2026-11-14T20:49:24Z",
+   "mission_id": "erdos856-2026-11",
+   "pod": "DEBRIEF-math-erdos856",
+   "provenance": {
+    "source": "public record to 2026-11-14: the problem page, its proof-claims thread and the claimants' public artifacts, pinned in claim.yaml"
+   },
+   "audience": "briefing",
+   "gap_id": "EG3",
+   "title": "The write-up is not a fixed file",
+   "status": "proposed",
+   "opened_cycle": 0,
+   "priority": 3,
+   "history": [],
+   "closes_with": [
+    {
+     "what": "the authors post the write-up as a fixed file or an arXiv preprint",
+     "kind": "data_release",
+     "external": true,
+     "who_could_act": "the claimants"
+    }
+   ],
+   "spoken": "The only artifact is an Overleaf read link, which can change without notice. Until the authors post a fixed file, a PDF or an arXiv preprint, there is nothing to pin and a reader cannot be sure of reading the same text twice.",
+   "ask": {
+    "spoken": "the authors post the write-up as a fixed file or an arXiv preprint"
+   },
+   "expected_signal": "a data or claim cycle pinning the file by hash",
+   "resolution_by": "none registered"
+  }
+ ],
+ "anomalies": [],
+ "background": [
+  {
+   "schema_version": "nm-debrief-v1",
+   "created_by": "DEBRIEF/tools/new_mission.py",
+   "created_at": "2026-11-14T20:49:24Z",
+   "mission_id": "erdos856-2026-11",
+   "pod": "DEBRIEF-math-erdos856",
+   "provenance": {
+    "source": "public record to 2026-11-14: the problem page, its proof-claims thread and the claimants' public artifacts, pinned in claim.yaml"
+   },
+   "audience": "briefing",
+   "term": "Erdős Problem #856",
+   "spoken": "For k at least three, let f_k(N) be the largest possible sum of 1/n over a subset of the integers one to N that contains no k elements with the same pairwise least common multiple. Estimate f_k(N). Erdős gave an upper bound of order log N over log log N; Tang and Zhang in 2025 showed f_k(N) lies between two powers of log N with exponents strictly between zero and one, exponents tied to the sunflower conjecture.",
+   "source": "https://www.erdosproblems.com/856"
+  },
+  {
+   "schema_version": "nm-debrief-v1",
+   "created_by": "DEBRIEF/tools/new_mission.py",
+   "created_at": "2026-11-14T20:49:24Z",
+   "mission_id": "erdos856-2026-11",
+   "pod": "DEBRIEF-math-erdos856",
+   "provenance": {
+    "source": "public record to 2026-11-14: the problem page, its proof-claims thread and the claimants' public artifacts, pinned in claim.yaml"
+   },
+   "audience": "briefing",
+   "term": "Proof claims on erdosproblems.com",
+   "spoken": "The site lets anyone list a claimed proof. Its own text says that appearing there is no guarantee of correctness and does not mean anyone associated with the site has examined it. A listed claim is where checking starts, not where it ends.",
+   "source": "https://www.erdosproblems.com/forum/thread/856/proof-claims"
+  },
+  {
+   "schema_version": "nm-debrief-v1",
+   "created_by": "DEBRIEF/tools/new_mission.py",
+   "created_at": "2026-11-14T20:49:24Z",
+   "mission_id": "erdos856-2026-11",
+   "pod": "DEBRIEF-math-erdos856",
+   "provenance": {
+    "source": "public record to 2026-11-14: the problem page, its proof-claims thread and the claimants' public artifacts, pinned in claim.yaml"
+   },
+   "audience": "briefing",
+   "term": "The claim by RayYoung, Keheng Zhu and Yanping Luo",
+   "spoken": "The claim is that f_k(N) equals (log N) to the power gamma_k plus o(1), where gamma_k is a supremum over finite block parameters of a quantity built from the largest r-uniform family on n points with no k sets sharing the same pairwise union. Matching weighted upper and lower bounds reduce the problem to that finite extremal formula. The authors say the proof is short, that they checked it themselves and uploaded it after minor revisions without a Lean formalisation, and that it builds on the existing literature and the problem's discussion thread.",
+   "source": "https://www.erdosproblems.com/forum/thread/856/proof-claims"
+  }
+ ],
+ "sessions": []
+}
