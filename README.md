@@ -2,6 +2,8 @@
 
 A DEBRIEF mission record (protocol https://github.com/Nervous-Machine/DEBRIEF) for **The claimed solution of Erdős Problem #856 (sets with no k elements sharing a pairwise least common multiple)**.
 
+This claim is on the public claims board, https://math-board.nervousmachine.com, which shows its stage, who has contributed, and what it needs next.
+
 **Standing.** Certified 0. Accepted 0. Refuted 0. Open gaps 3. This record is at tier zero: the claim and its public artifacts are pinned, the checks still owed are listed, and nothing has been run or read yet. The first contribution is open.
 
 ## The problem
