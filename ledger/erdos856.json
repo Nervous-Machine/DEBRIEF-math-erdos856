@@ -105,6 +105,53 @@
     "EG2",
     "EG3"
    ]
+  },
+  {
+   "schema_version": "nm-debrief-v1",
+   "mission_id": "erdos856-2026-11",
+   "pod": "DEBRIEF-math-erdos856",
+   "audience": "briefing",
+   "created_by": "DEBRIEF external-status snapshot",
+   "created_at": "2026-11-17T21:00:00Z",
+   "provenance": {
+    "source": "public pages of the Palomar registry, google-deepmind/formal-conjectures and the erdosproblems.com database, read 2026-11-17"
+   },
+   "cycle": "external-2026-11-17",
+   "dated": "2026-11-17",
+   "kind": "replay",
+   "by": null,
+   "preregistered": {
+    "question": "What do other registries show about this claim today?",
+    "rule": "status read from each registry's public data, pinned by commit or entry id; no new checking",
+    "predictions": [],
+    "commit": null,
+    "before_data": false
+   },
+   "outcome": {
+    "verdict": "admitted",
+    "numbers": {
+     "external": {
+      "palomar": {
+       "status": "none found",
+       "searched": "data.palomar-registry.org/api/v1/results by problem, claimant repository and topic, 2026-11-17"
+      },
+      "formal_conjectures": {
+       "main_statement": "open; variants solved",
+       "formal_proof_linked": null,
+       "url": "https://github.com/google-deepmind/formal-conjectures/blob/6751c0f043985ac6647db28a45a63afdf21acffe/FormalConjectures/ErdosProblems/856.lean",
+       "commit": "6751c0f043985ac6647db28a45a63afdf21acffe"
+      },
+      "erdosproblems": {
+       "state": "open",
+       "source": "https://github.com/teorth/erdosproblems/blob/641a78e3debdcbb2d53b936d3c4c7d9528c55a90/data/problems.yaml",
+       "commit": "641a78e3debdcbb2d53b936d3c4c7d9528c55a90"
+      }
+     }
+    }
+   },
+   "spoken": "What other registries showed on 2026-11-17. Palomar: no entry found. DeepMind formal-conjectures: main statement marked open; variants solved. erdosproblems.com: status open. None of these is a named human reading of the statement.",
+   "finding_ids": [],
+   "gap_ids": []
   }
  ],
  "findings": [],
