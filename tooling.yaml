@@ -1,0 +1,11 @@
+# Tooling disclosure for this record's claim(s): which models, at what access tier, over what time, as stated by the
+# claimant or inferred from the public record (the basis says which). Read by DEBRIEF/tools/tooling.py into the ledger.
+# Tier words and model release dates: DEBRIEF/tools/models.yaml. Nothing here is a standing.
+claims:
+- by: RayYoung, Keheng Zhu and Yanping Luo
+  models:
+  - gpt-5-6-sol-pro
+  tier: subscription-pro
+  basis: 'stated by the claimants: GPT 5.6 Sol Pro, a Pro and Enterprise tier model'
+  work:
+    to: '2026-07-18'
