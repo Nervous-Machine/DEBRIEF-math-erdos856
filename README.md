@@ -4,7 +4,22 @@ A DEBRIEF mission record (protocol https://github.com/Nervous-Machine/DEBRIEF) f
 
 This claim is on the public claims board, https://math-board.nervousmachine.com, which shows its stage, who has contributed, and what it needs next.
 
-**Standing.** Certified 0. Accepted 0. Refuted 0. Open gaps 3. This record is at tier zero: the claim and its public artifacts are pinned, the checks still owed are listed, and nothing has been run or read yet. The first contribution is open.
+<!-- standing:begin -->
+**Standing, 17 Nov 2026.** Stage: Registered. Needs next: No formal deduction exists for the claimed proof ([what would close it](ASKS.md)).
+
+| certified | accepted | refuted | open gaps | cycles filed | last cycle |
+|---|---|---|---|---|---|
+| 0 | 0 | 0 | 3 | 0 | 17 Nov 2026 |
+
+| | |
+|---|---|
+| checked by machine | no Lean to check |
+| read by a person | nobody yet; no reading guide yet |
+| elsewhere | [DeepMind formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6751c0f043985ac6647db28a45a63afdf21acffe/FormalConjectures/ErdosProblems/856.lean): open; variants solved · [erdosproblems.com](https://www.erdosproblems.com/): open |
+| related | — |
+
+Rendered from `ledger/` at regeneration; the full record is `SCORECARD.md`, what is owed is `ASKS.md`. Standing words: nothing has standing yet.
+<!-- standing:end -->
 
 ## The problem
 
